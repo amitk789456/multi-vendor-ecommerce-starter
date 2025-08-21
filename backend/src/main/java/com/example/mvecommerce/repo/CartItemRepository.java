@@ -1,0 +1,1 @@
+package com.example.mvecommerce.repo; import com.example.mvecommerce.domain.CartItem; import org.springframework.data.jpa.repository.JpaRepository; public interface CartItemRepository extends JpaRepository<CartItem, Long>{}

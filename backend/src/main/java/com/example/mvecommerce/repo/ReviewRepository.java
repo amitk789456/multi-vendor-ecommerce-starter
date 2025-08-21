@@ -1,0 +1,1 @@
+package com.example.mvecommerce.repo; import com.example.mvecommerce.domain.Review; import com.example.mvecommerce.domain.Product; import java.util.List; import org.springframework.data.jpa.repository.JpaRepository; public interface ReviewRepository extends JpaRepository<Review, Long>{ List<Review> findByProduct(Product p); }

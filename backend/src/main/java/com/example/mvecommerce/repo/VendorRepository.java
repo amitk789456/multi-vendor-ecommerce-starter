@@ -1,0 +1,1 @@
+package com.example.mvecommerce.repo; import com.example.mvecommerce.domain.Vendor; import org.springframework.data.jpa.repository.JpaRepository; public interface VendorRepository extends JpaRepository<Vendor, Long>{}

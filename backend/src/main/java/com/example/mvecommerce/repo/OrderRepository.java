@@ -1,0 +1,1 @@
+package com.example.mvecommerce.repo; import com.example.mvecommerce.domain.Order; import com.example.mvecommerce.security.User; import java.util.List; import org.springframework.data.jpa.repository.JpaRepository; public interface OrderRepository extends JpaRepository<Order, Long>{ List<Order> findByUser(User u); }

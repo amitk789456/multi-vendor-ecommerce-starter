@@ -1,0 +1,1 @@
+package com.example.mvecommerce.repo; import com.example.mvecommerce.domain.Cart; import com.example.mvecommerce.security.User; import java.util.Optional; import org.springframework.data.jpa.repository.JpaRepository; public interface CartRepository extends JpaRepository<Cart, Long>{ Optional<Cart> findByUser(User u); }
